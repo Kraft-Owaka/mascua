@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../image/code.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
