@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+/*first line of css on linear-gradient make the background dark*/
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/images\ \(5\).jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/code.jpeg);
     height:100vh;
     background-size: cover;
     background-position: center; 
@@ -16,12 +17,12 @@ header {
 .main-nav li{
     display: inline-block;
 }
-.main-nav li a{
-    font-size:15px;
+.main-nav li a {
     color: white;
     text-decoration: none;
     padding:5px 20px;
     font-family: "Roboto", sans-serif;
+    font-size: 15px;
 }
 .main-nav li.active a{
     border: 1px solid white;
@@ -57,7 +58,7 @@ h1{
 /*button possition styling*/
 .button{
    margin-top: 30px;
-   margin-left: 440px;
+   margin-left: 420px;
 }
 /*button style*/
 .btn{
@@ -74,3 +75,13 @@ h1{
     background-color: darkorange;
     font-family: "Roboto", sans-serif;
 }
+.btn-two{
+    font-family: "Roboto", sans-serif;
+}
+/*hover effect on the second button*/
+.btn-two:hover{
+    background-color: darkorange;
+    transform: all 0.9s ease-in;
+    
+}
+
